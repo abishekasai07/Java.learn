@@ -4,3 +4,18 @@ public class HelloWorld {
         System.out.println("Hello, World!");
     }
 }
+
+
+
+
+// java next level basic  program
+
+public class SimpleExample {
+    public static void main(String[] args) {
+        // Declare a variable
+        int number = 10;
+
+        // Print the variable
+        System.out.println("The number is " + number);
+    }
+}
