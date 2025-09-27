@@ -1,0 +1,62 @@
+// lenth()
+
+
+public class LengthExample {
+    public static void main(String[] args) {
+        String str = "Hello";
+        System.out.println("Length: " + str.length());  // Output: 5
+    }
+}
+
+// int index()
+
+public class CharAtExample {
+    public static void main(String[] args) {
+        String str = "Hello";
+        System.out.println("Character at index 1: " + str.charAt(1));  // Output: e
+    }
+}
+
+//substring(int beginIndex, int endIndex)
+
+
+
+public class SubstringExample {
+    public static void main(String[] args) {
+        String str = "Hello World";
+        System.out.println(str.substring(6));      // Output: World
+        System.out.println(str.substring(0, 5));   // Output: Hello
+    }
+}
+
+
+//toUpperCase() and toLowerCase()
+
+public class CaseExample {
+    public static void main(String[] args) {
+        String str = "Hello";
+        System.out.println(str.toUpperCase());  // Output: HELLO
+        System.out.println(str.toLowerCase());  // Output: hello
+    }
+}
+
+
+//contains(CharSequence s)
+
+public class ContainsExample {
+    public static void main(String[] args) {
+        String str = "Hello World";
+        System.out.println(str.contains("World"));  // Output: true
+        System.out.println(str.contains("Java"));   // Output: false
+    }
+}
+
+//indexOf(String str)
+
+public class IndexOfExample {
+    public static void main(String[] args) {
+        String str = "Hello World";
+        System.out.println(str.indexOf('o'));        // Output: 4
+        System.out.println(str.lastIndexOf('o'));    // Output: 7
+    }
+}
