@@ -1,0 +1,14 @@
+public class SwapWithoutTemp {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+
+        System.out.println("Before swap: a = " + a + ", b = " + b);
+
+        a = a + b;  // a now holds the sum of a and b
+        b = a - b;  // b is assigned original value of a
+        a = a - b;  // a is assigned original value of b
+
+        System.out.println("After swap: a = " + a + ", b = " + b);
+    }
+}
