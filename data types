@@ -1,0 +1,85 @@
+public class DataTypesExample {
+    public static void main(String[] args) {
+        int myInt = 42;
+        double myDouble = 3.1415;
+        float myFloat = 2.5f;
+        char myChar = 'A';
+        boolean myBoolean = true;
+        long myLong = 123456789L;
+        short myShort = 1000;
+        byte myByte = 127;
+        String myString = "Hello, World!";
+        
+        System.out.println("int: " + myInt);
+        System.out.println("double: " + myDouble);
+        System.out.println("float: " + myFloat);
+        System.out.println("char: " + myChar);
+        System.out.println("boolean: " + myBoolean);
+        System.out.println("long: " + myLong);
+        System.out.println("short: " + myShort);
+        System.out.println("byte: " + myByte);
+        System.out.println("String: " + myString);
+    }
+}
+
+// int 
+public class IntExample {
+    public static void main(String[] args) {
+        int myNumber = 100;  // Declare an int variable and assign the value 100
+        
+        System.out.println("The value of myNumber is: " + myNumber);
+    }
+}
+
+// float
+
+public class FloatExample {
+    public static void main(String[] args) {
+        float myFloat = 3.14f;  // Must add 'f' at the end
+        
+        System.out.println("The value of myFloat is: " + myFloat);
+    }
+}
+
+
+
+// double 
+
+public class DoubleExample {
+    public static void main(String[] args) {
+        double pi = 3.14159;
+        System.out.println("double: " + pi);
+    }
+}
+
+// char
+public class CharExample {
+    public static void main(String[] args) {
+        char letter = 'A';
+        System.out.println("char: " + letter);
+    }
+}
+
+// boolean
+public class BooleanExample {
+    public static void main(String[] args) {
+        boolean isJavaFun = true;
+        System.out.println("boolean: " + isJavaFun);
+    }
+}
+
+// long
+public class LongExample {
+    public static void main(String[] args) {
+        long bigNumber = 1234567890123L;  // Note the 'L' suffix
+        System.out.println("long: " + bigNumber);
+    }
+}
+
+// string
+public class StringExample {
+    public static void main(String[] args) {
+        String greeting = "Hello, World!";
+        System.out.println("String: " + greeting);
+    }
+}
